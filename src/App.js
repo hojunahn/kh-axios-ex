@@ -1,10 +1,10 @@
-import "./App.css";
-import Axios from "./Axios";
+import News from "./News";
 import NewsList from "./NewsList";
 
 function App() {
   return (
     <>
+      <News />
       <NewsList />
     </>
   );
